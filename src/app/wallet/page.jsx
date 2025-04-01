@@ -3,8 +3,8 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="bg-[#fafafa] pt-[5rem] flex items-center justify-center flex-col">
-      <h1 className='text-[1.3rem] py-6 font-[600] text-[var(--color-black)]'>Connect Wallet</h1>
+    <div className="bg-[#030416] pt-[5rem] flex items-center justify-center flex-col">
+      <h1 className='text-[1.3rem] md:text-[1.6rem] py-6 font-[600] text-white'>Connect Wallet</h1>
       <Wallet />
     </div>
   )

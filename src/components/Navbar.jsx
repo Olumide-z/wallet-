@@ -8,14 +8,14 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md p-4 fixed w-full top-0 z-50">
+    <nav className="bg-[#030416] text-white p-4 fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="text-2xl font-bold">Logo</div>
+        <Link href='/'><div className="text-2xl font-bold">C</div></Link>
         
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link href="#">Explore</Link>
+          <Link href="/wallet">Explore</Link>
           <Link href="/wallet">Connect Wallet</Link>
         </div>
 

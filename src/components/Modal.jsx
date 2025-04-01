@@ -34,7 +34,7 @@ const Modal = ({ setOpenModal, wallet }) => {
       className="fixed inset-0 flex items-center justify-center bg-black/50 z-[99999999]"
     >
       <div
-        className="bg-white relative p-6 rounded-lg shadow-lg w-[300px] h-fit sm:w-[400px] md:w-[450px] flex flex-col items-center justify-center"
+        className="bg-white relative p-6 rounded-lg shadow-lg w-[320px] h-fit sm:w-[400px] md:w-[450px] flex flex-col items-center justify-center"
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking inside
       >
         <button

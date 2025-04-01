@@ -18,7 +18,7 @@ const Wallet = () => {
       {walletData.map((item, index) => (
         <div
           key={index}
-          className="bg-white p-4 rounded-xl text-[var(--color-black)] flex flex-col items-center text-center"
+          className="bg-white/70 p-4 rounded-xl text-[var(--color-black)] flex flex-col items-center text-center"
         >
           <img
             src={item.image}
