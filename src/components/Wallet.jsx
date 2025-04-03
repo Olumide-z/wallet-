@@ -1,6 +1,6 @@
 "use client";
 
-import { walletData } from "@/data";
+import { walletData } from "../data";
 import React, { useState } from "react";
 import Modal from "./Modal";
 
