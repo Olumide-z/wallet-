@@ -3,9 +3,12 @@ import Link from 'next/link';
 
 const HeroSection = () => {
   return (
-    <div className="w-full h-[500px] flex justify-center items-center px-4 md:px-8 bg-[#250486] text-white">
+    <div
+      className="w-full md:h-[500px] h-[450px] flex justify-center items-center px-4 md:px-8 bg-[#250486] text-white bg-cover bg-center"
+      style={{ backgroundImage: 'url(/images/header-background.svg)' }}
+    >
       <div className="text-center max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl">
-        <h1 className="text-4xl sm:text-5xl md:text-[4.5rem] font-bold">
+        <h1 className="text-[2.5rem] sm:text-5xl md:text-[4.5rem] font-bold">
           VeChain
         </h1>
         <p className="mt-4 md:mt-6 text-sm sm:text-base md:text-[1.5rem]">

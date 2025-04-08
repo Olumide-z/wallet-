@@ -31,7 +31,7 @@ const cards = [
 
 export default function CallToAction() {
   return (
-    <div className="w-full px-6 py-16 bg-[#e8eced]">
+    <div className="w-full px-6 md:py-16 py-8 bg-[#e8eced]">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-2">Earn on NFTs</h2>
       <p className='text-center text-[1.1rem] mb-8'>Upcoming Sales</p>
       <Swiper
