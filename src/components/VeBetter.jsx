@@ -3,7 +3,7 @@ import { FaShieldAlt, FaBolt, FaLock, FaDollarSign } from 'react-icons/fa';
 
 export default function VeBetter() {
   return (
-    <section className="w-full md:py-16 py-8 px-6 bg-gray-100">
+    <section id='web3' className="w-full md:py-16 py-8 px-6 bg-gray-100">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         
         {/* Left Side */}

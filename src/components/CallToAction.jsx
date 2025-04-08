@@ -37,7 +37,7 @@ const cards = [
 
 export default function CallToAction() {
   return (
-    <div className="w-full px-6 md:py-16 py-8 bg-[#e8eced]">
+    <div id="enterprise" className="w-full px-6 md:py-16 py-8 bg-[#e8eced]">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-2">
         Earn on Crypto
       </h2>
@@ -61,7 +61,7 @@ export default function CallToAction() {
       >
         {cards.map((card, index) => (
           <SwiperSlide key={index}>
-            <div className="bg-[#171717] text-white rounded-2xl shadow-lg p-8 h-fit flex flex-col justify-between">
+            <div className="bg-gray-950 text-white rounded-2xl shadow-lg p-8 h-fit flex flex-col justify-between">
               <div>
                 <h3 className="md:text-[2rem] text-[1.7rem] md:leading-12 leading-10 font-semibold mb-4">
                   {card.title}

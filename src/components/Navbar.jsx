@@ -17,7 +17,10 @@ export default function Navbar() {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">
-          <Link href="/explore">Explore</Link>
+          <a href="#web3">Web3</a>
+          <a href="#enterprise">Enterprise</a>
+          <a href="#build">Build</a>
+          <a href="#explore">Explore</a>
           <Link href="/wallet">Connect Wallet</Link>
         </div>
 
@@ -31,8 +34,11 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-4 mt-4 bg-[#030416] shadow-md p-4">
-          <Link href="/explore">Explore</Link>
+        <div className="md:hidden flex flex-col items-center space-y-4 mt-4 bg-[#250486] shadow-md p-4">
+         <a href="#web3">Web3</a>
+          <a href="#enterprise">Enterprise</a>
+          <a href="#build">Build</a>
+          <a href="#explore">Explore</a>
           <Link href="/wallet">Connect Wallet</Link>
         </div>
       )}

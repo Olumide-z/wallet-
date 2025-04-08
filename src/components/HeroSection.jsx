@@ -17,11 +17,14 @@ const HeroSection = () => {
         <p className="mt-2 text-xs sm:text-sm md:text-base text-gray-200">
           Empowering businesses with blockchain solutions for a more transparent and efficient future.
         </p>
-        <Link href="/explore">
-          <button className="mt-6 bg-[#00bed8] w-[200px] cursor-pointer text-white px-6 py-3 rounded-full text-lg font-medium transition hover:bg-white hover:text-[#00bed8]">
-            Explore
-          </button>
-        </Link>
+        
+        <a
+          href="#explore"
+          className="mt-6 inline-block bg-[#00bed8] w-[200px] cursor-pointer text-white px-6 py-3 rounded-full text-lg font-medium transition hover:bg-white hover:text-[#00bed8]"
+        >
+          Explore
+        </a>
+        
       </div>
     </div>
   );
