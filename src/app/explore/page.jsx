@@ -3,7 +3,7 @@ import React from "react";
 
 const Page = () => {
   return (
-    <div className="pt-[70px] bg-[#e8eced] px-10 w-full flex justify-center items-center h-screen">
+    <div className="pt-[70px] bg-[#e8eced] md:px-10 px-6 w-full flex justify-center items-center md:h-[500px] h-[450px]">
       <div className="flex items-center gap-4 lg:w-[85%] w-full">
         {/* Text Section */}
         <div className="w-full md:w-[60%] text-center md:text-left px-4">
