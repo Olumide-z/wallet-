@@ -39,7 +39,7 @@ export default function Navbar() {
           <a href="#enterprise">Enterprise</a>
           <a href="#build">Build</a>
           <a href="#explore">Explore</a>
-          <Link href="/wallet">Connect Wallet</Link>
+          <Link href="/wallet" onClick={setIsOpen(false)}>Connect Wallet</Link>
         </div>
       )}
     </nav>
