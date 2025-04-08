@@ -9,7 +9,7 @@ const VeChainSection = () => {
           VeChainThor (VET) & VeThor (VTHO)
         </h2>
         <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-          <strong className="text-white">A Dual-Token Powerhouse</strong> – VeChainThor utilizes a unique dual-token system.
+          <strong className="text-white">A Dual-Token Powerhouse</strong> – <span className='text-[0.9rem]'>VeChainThor utilizes a unique dual-token system.</span>
           <span className="block mt-2 text-[0.9rem]">
             <span className="text-blue-300 font-semibold">$VET</span> serves as the primary value-transfer token and is used for activities like staking and participating in governance.
             Holding <span className="text-blue-300 font-semibold">$VET</span> generates <span className="text-yellow-300 font-semibold">$VTHO</span>, which acts as the network's gas token, used to pay for transaction fees and smart contract execution.
