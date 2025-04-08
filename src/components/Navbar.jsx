@@ -11,7 +11,9 @@ export default function Navbar() {
     <nav className="text-white bg-[#250486] p-4 fixed w-full top-0 z-50">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <Link href='/'><div className="text-2xl font-bold">VeChain</div></Link>
+        <Link href='/'>
+          <img src='/images/logo.png' className="md:w-[200px] w-[150px] h-[60px] object-contain"/>
+        </Link>
         
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6">

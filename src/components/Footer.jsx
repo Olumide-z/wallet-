@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
         {/* Brand Info */}
         <div>
-          <h3 className="text-2xl font-bold">VeChain</h3>
+          <img src='/images/logo.png' className="w-[120px] h-[60px] object-contain"/>
           <p className="mt-2 text-sm text-gray-300">
             Web3 for better. Empowering transparent, secure, and efficient blockchain solutions.
           </p>
