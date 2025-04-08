@@ -22,11 +22,15 @@ const cards = [
     button: "Try Now",
   },
   {
-    title: "Try DApps Now Finance,gaming,social,Web3,Smart Contracts",
+    title: "Try DApps Now Finance, gaming, social, Web3, Smart Contracts",
     button: "Try Now",
   },
   {
     title: "Access Pool Tokens on Multiple Chains ",
+    button: "Try Now",
+  },
+  {
+    title: "Earn on NTFs",
     button: "Try Now",
   },
 ];
